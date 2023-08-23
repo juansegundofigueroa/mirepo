@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@900&display=swap');
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d3ab9e;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.barra{
+    background-color: #cdb4db;
+}
+.logo{
+    font-size: 35px;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    color: #d3ab9e;
+}
+ul li{
+    font-size: 20px;
+    padding: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #d3ab9e;
+}
+ul a:hover{
+    background-color: #d3ab9e;
+    color: black;
+}
+.imgilus{
+    height: 400px !important;
+    object-fit: contain;
+    object-position: center;
+}
+.eslogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(/Imagenes/Recepcion/recepcion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.eslogan1{
+    display: inline-block;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: left;
+    text-shadow: 2px 2px 2px white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 25px;
+}
+.parrafo1{
+    width: 50%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 2px 2px 2px white;
+    align-items: start;
+    background-color: rgba(240, 248, 255, 0.459);
+}
+.seccionsuperior{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.caja{
+    width: 300px;
+    margin: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.titulos{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.parrafos{
+    font-size: large;
+}
+.caja a{
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+}
+.caja a:hover{
+    background-color: #d3ab9e;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+.seccionmedia{
+    background-color: #cdb4db;
+}
+.seccionmedia p{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    height: 200px;
+    padding: 30px;
+}
+.seccionbaja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+form{
+    width: 350px;
+    height: 400px;
+    padding-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+form label{
+    padding: 3px;
+}
+form input{
+    margin-top: px;
+    width: 200px;
+}
+form button{
+    width: 50px;
+    margin: 10px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.redes1 a{
+    margin-left: 40px;
+    padding: 20px;
+}
+i{
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+.seccionbaja h3{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    background-color: #cdb4db;
+}
+footer p{
+    text-align: center;
+    color: black;
+}
+footer a{
+    color: black !important;
+}
